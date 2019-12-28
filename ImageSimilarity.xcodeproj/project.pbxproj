@@ -15,6 +15,8 @@
 		8F891F2F23B6C26B0012C6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F891F2D23B6C26B0012C6A3 /* LaunchScreen.storyboard */; };
 		8F891F3A23B6C26B0012C6A3 /* ImageSimilarityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F3923B6C26B0012C6A3 /* ImageSimilarityTests.swift */; };
 		8F891F4523B6C26B0012C6A3 /* ImageSimilarityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F4423B6C26B0012C6A3 /* ImageSimilarityUITests.swift */; };
+		8F891F5323B6C6C70012C6A3 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F5223B6C6C70012C6A3 /* Views.swift */; };
+		8F891F5523B6CFBE0012C6A3 /* Similarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F5423B6CFBE0012C6A3 /* Similarity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8F891F4023B6C26B0012C6A3 /* ImageSimilarityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSimilarityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F891F4423B6C26B0012C6A3 /* ImageSimilarityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSimilarityUITests.swift; sourceTree = "<group>"; };
 		8F891F4623B6C26B0012C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F891F5223B6C6C70012C6A3 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		8F891F5423B6CFBE0012C6A3 /* Similarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Similarity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8F891F2D23B6C26B0012C6A3 /* LaunchScreen.storyboard */,
 				8F891F3023B6C26B0012C6A3 /* Info.plist */,
 				8F891F2A23B6C26B0012C6A3 /* Preview Content */,
+				8F891F5223B6C6C70012C6A3 /* Views.swift */,
+				8F891F5423B6CFBE0012C6A3 /* Similarity.swift */,
 			);
 			path = ImageSimilarity;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F891F5323B6C6C70012C6A3 /* Views.swift in Sources */,
 				8F891F2323B6C2680012C6A3 /* AppDelegate.swift in Sources */,
 				8F891F2523B6C2680012C6A3 /* SceneDelegate.swift in Sources */,
 				8F891F2723B6C2680012C6A3 /* ContentView.swift in Sources */,
+				8F891F5523B6CFBE0012C6A3 /* Similarity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
